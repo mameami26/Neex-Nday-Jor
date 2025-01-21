@@ -1,0 +1,143 @@
+.footer {
+    background: #101010;
+    color: #ffffff;
+    padding: 2vw 5vw;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.footer-content-left {
+    flex: 1;
+    max-width: 30%;
+}
+
+.footer-content-left img {
+    max-width: 150px;
+}
+
+.footer-content-left p {
+    margin-top: 1vw;
+    font-size: 0.9vw;
+    line-height: 1.6;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 1vw;
+    margin-top: 1.5vw;
+}
+
+.footer-social-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.footer-social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-content-center {
+    flex: 1;
+    max-width: 20%;
+}
+
+.footer-content-center h2 {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+}
+
+.footer-content-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content-center li {
+    margin: 0.5vw 0;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-content-center li:hover {
+    color: #ff6363;
+}
+
+.footer-content-right {
+    flex: 1;
+    max-width: 25%;
+}
+
+.footer-content-right h2 {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+}
+
+.footer-content-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content-right li {
+    margin: 0.5vw 0;
+    font-size: 1vw;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 1vw;
+    gap: 0.5vw;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 0.8vw;
+    font-size: 1vw;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 0.8vw 1.5vw;
+    background: #ff6363;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+    background: #ff4949;
+}
+
+hr {
+    margin: 2vw 0;
+    border: none;
+    height: 1px;
+    background: #333;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.9vw;
+    color: #ccc;
+}
+
+@media (max-width: 750px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
