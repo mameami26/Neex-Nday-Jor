@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Header/>
-      <ExploreMenu setCategory={setCategory} category={category}/>
+      <ExploreMenu category={category} setCategory={setCategory}/>
       <FoodDisplay category={category}/>
       <AppDownload/>
     </>

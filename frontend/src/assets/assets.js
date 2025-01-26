@@ -98,7 +98,7 @@ export const menu_list = [
         menu_image: menu_3
     },
     {
-        menu_name: "drinks",
+        menu_name: "Drinks",
         menu_image: menu_4
     },
     {
@@ -106,225 +106,225 @@ export const menu_list = [
         menu_image: menu_5
     },
     {
-        menu_name: "hot drinks",
+        menu_name: "Hot drinks",
         menu_image: menu_6
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "thiebou dieune",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "thiebou dieune is a traditional Senegalese dish made from fish, rice, and tomato sauce.",
+        category: "Lunch"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "sakha sakha",
         image: food_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "sakh sakh is a traditional Senegalese dish made from millet couscous, served with a sauce made from fish, vegetables, and spices.",
+        category: "Lunch"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Yassa chicken",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Yassa chicken is a traditional Senegalese dish made from chicken marinated in lemon and onions, then grilled or fried.",
+        category: "Lunch"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "cest bon",
         image: food_4,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "c'est bon is a traditional Senegalese dish made from fish, rice, and tomato sauce.",
+        category: "Lunch"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Mafe",
         image: food_5,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Mafe is a traditional Senegalese dish made from meat, vegetables, and peanut butter sauce.",
+        category: "Lunch"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Jollof Rice",
         image: food_6,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Jollof rice is a traditional Senegalese dish made from rice, tomatoes, and spices.",
+        category: "Lunch"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "fataya",
         image: food_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "fataya is a baked or fried pastry filled with meat, fish, or vegetabls.",
+        category: "Breakfast"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Been Sandwich",
         image: food_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: " Senegales traditional sandwich made from beans, vegetables, and spices.",
+        category: "Breakfast"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Egg Sandwich",
         image: food_9,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "egg sandwich is a traditional Senegalese dish made from eggs, vegetables, and spices.",
+        category: "Breakfast"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "tuna sandwich",
         image: food_10,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "tuna sandwich is a traditional Senegalese dish made from tuna, vegetables, and spices.",
+        category: "Breakfast"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Leaver Sandwich",
         image: food_11,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "leaver sandwich is a traditional Senegalese dish made from leaver, vegetables, and spices.",
+        category: "Breakfast"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "bisaa/hebiscus",
         image: food_12,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "bisaa/hebiscus is a traditional Senegalese drink made from dried hibiscus flowers, sugar, and water.",
+        category: "Drinks"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "bOUYE/jus de bouye",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "bouye/jus de bouye is a traditional Senegalese drink made from baobab fruit, sugar, and water.",
+        category: "Drinks"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Ginger Juice",
         image: food_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Ginger Juice is a traditional Senegalese drink made from ginger, sugar, and water.",
+        category: "Drinks"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Lemon Juice",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Lemon Juice is a traditional Senegalese drink made from lemon, sugar, and water.",
+        category: "Drinks"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Dibi chicken",
         image: food_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Dibi chicken is a traditional Senegalese dish made from grilled chicken, served with onions and mustard sauce.",
+        category: "Dinner"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Dibi lamb",
         image: food_17,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Dibi lamb is a traditional Senegalese dish made from grilled lamb, served with onions and mustard sauce.",
+        category: "Dinner"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "grilled fish",
         image: food_18,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "grilled fish is a traditional Senegalese dish made from grilled fish, served with onions and mustard sauce.",
+        category: "Dinner"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "sawarma/ kebab",
         image: food_19,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "sawarma/ kebab is a traditional Senegalese dish made from grilled meat, served with onions and mustard sauce.",
+        category: "Dinner"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "tacos France",
         image: food_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "tacos France is a traditional France dish made from meat, vegetables, and spices.",
+        category: "Dinner"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "grilled checiken",
         image: food_21,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "grilled checiken is a traditional Senegalese dish made from grilled chicken, served with onions and mustard sauce.",
+        category: "Dinner"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Thiakry sour",
         image: food_22,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Thiakry sour is a traditional Senegalese dish made from millet couscous amd sour cream.",
+        category: "Deserts"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Galakh Dessert",
         image: food_23,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Galakh Dessert is a traditional Senegalese dish made from milk, sugar, and water, baoba fruit, chocolate, and vanilla.",
+        category: "Deserts"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Beignet / donuts",
         image: food_24,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Beignet / donuts is a traditional Senegalese dish made from flour, sugar, and water.",
+        category: "Deserts"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Lakhou Netary",
         image: food_25,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Lakhou Netary is a traditional Senegalese dish made from milk, sugar, and water.",
+        category: "Deserts"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "lakhou sour cream",
         image: food_26,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "lakhou sour cream is a traditional Senegalese dish made from milk, sugar, and water, sour cream.",
+        category: "Deserts"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "founde dougoup",
         image: food_27,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Deserts"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Cafe Touba",
         image: food_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Cafe Touba is a traditional Senegalese dish made from coffee, sugar, and water.",
+        category: "Hot Drinks"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Ataya / tea",
         image: food_29,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Ataya / tea is a traditional Senegalese dish made from tea, sugar, and water.",
+        category: "Hot Drinks"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Doute / tea",
         image: food_30,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Doute / tea is a traditional Senegalese dish made from tea, sugar, and water.",
+        category: "Hot Drinks"
     }
 ]
