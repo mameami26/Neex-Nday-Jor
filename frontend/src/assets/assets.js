@@ -9,7 +9,7 @@ import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
+// import menu_6 from './menu_6.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -104,11 +104,12 @@ export const menu_list = [
     {
         menu_name: "Deserts",
         menu_image: menu_5
-    },
-    {
-        menu_name: "Hot drinks",
-        menu_image: menu_6
-    }]
+    }
+    // {
+    //     menu_name: "Hot drinks",
+    //     menu_image: menu_6
+    // }
+    ]
 
 export const food_list = [
     {
@@ -311,20 +312,20 @@ export const food_list = [
         image: food_28,
         price: 24,
         description: "Cafe Touba is a traditional Senegalese dish made from coffee, sugar, and water.",
-        category: "Hot Drinks"
+        category: "Drinks"
     }, {
         _id: "29",
         name: "Ataya / tea",
         image: food_29,
         price: 14,
         description: "Ataya / tea is a traditional Senegalese dish made from tea, sugar, and water.",
-        category: "Hot Drinks"
+        category: "Drinks"
     }, {
         _id: "30",
         name: "Doute / tea",
         image: food_30,
         price: 12,
         description: "Doute / tea is a traditional Senegalese dish made from tea, sugar, and water.",
-        category: "Hot Drinks"
+        category: "Drinks"
     }
 ]
